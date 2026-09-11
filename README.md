@@ -14,6 +14,11 @@ This is a research log, not a jailbreak release. It does not contain a payload, 
 
 The detailed results and their limits are in [STATUS.md](STATUS.md). The procedure is described in [METHOD.md](METHOD.md).
 
+## Run notes
+
+- [2 September 2026 — userland check](notes/2026-09-02-userland-check.md)
+- [7 September 2026 — import-relative code check](notes/2026-09-07-relative-symbol-check.md)
+
 ## Current limit
 
 There is no verified public 13.52 jailbreak chain here. I have not established kernel read/write, a kernel exploit, patch compatibility, or payload execution. Third-party offsets and binaries are treated as leads until they can be tied to an exact image and checked byte for byte.
