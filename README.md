@@ -1,8 +1,18 @@
-# PS4 13.52 WebKit lab notes
+# PS4 13.52 WebKit — memory-safety research notes
 
-This repository records compatibility testing I carried out on a locally controlled PS4 running system software 13.52. The question was narrow: which parts of an earlier browser userland research path could still be reproduced on this firmware?
+Independent security research into browser memory-safety on a locally controlled
+PlayStation 4 running system software 13.52. The work is variant-analysis: taking
+publicly documented browser userland research and testing, on hardware I own,
+which parts still reproduce on this exact firmware, and where new behaviour appears.
 
-This is a research log, not a jailbreak release. It does not contain a payload, kernel patch, persistence method, or a ready-to-use exploit.
+**This is a research log under responsible disclosure — not a jailbreak release.**
+It contains no payload, kernel patch, persistence method, or ready-to-use exploit.
+If any finding here reaches clear vendor impact, it goes to the vendor's official
+security channel before any technical release. See [SECURITY.md](SECURITY.md).
+
+- **Researcher:** enggaps
+- **HackerOne:** https://hackerone.com/enggaps
+- **Focus:** browser userland memory safety, exact-firmware compatibility, evidence-first methodology
 
 ## What I verified
 
@@ -27,4 +37,4 @@ There is no verified public 13.52 jailbreak chain here. I have not established k
 
 Testing is limited to a console and network under my control. The published notes exclude live addresses, raw memory, private network details, console identifiers, firmware dumps, and operational exploit code.
 
-See [SCOPE.md](SCOPE.md) for the full boundary and [SOURCES.md](SOURCES.md) for attribution.
+See [SCOPE.md](SCOPE.md) for the full boundary, [SECURITY.md](SECURITY.md) for disclosure posture, and [SOURCES.md](SOURCES.md) for attribution.
